@@ -2,7 +2,7 @@
   "name": "assig3",
   "version": "1.0.0",
   "description": "<h1>web2_assig3</h1>\r <h1>Password: adminn</h1>",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
@@ -13,6 +13,7 @@
     "axios": "^1.6.7",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
+    "call-bind": "^1.0.7",
     "cookie-parser": "^1.4.6",
     "dotenv": "^16.4.2",
     "ejs": "^3.1.9",

@@ -8,7 +8,7 @@ const movieSchema = new mongoose.Schema({
         title: String,
         voteAverage: Number,
         popularity: Number,
-        releaseDate: Date // Изменено на тип Date
+        releaseDate: Date, // Изменено на тип Date
     }]
 }, {
     timestamps: true // Добавление меток времени
